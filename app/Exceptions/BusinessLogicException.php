@@ -14,6 +14,7 @@ abstract class BusinessLogicException extends Exception
     public const USER_NOT_SAVED = 601;
     public const FAILED_UPDATE_USER = 602;
     public const FAILED_EDIT_LOCK_USER = 603;
+    public const FAILED_CHANGE_USER_PASSWORD = 604;
 
     private int $httpStatusCode = Response::HTTP_BAD_REQUEST;
 

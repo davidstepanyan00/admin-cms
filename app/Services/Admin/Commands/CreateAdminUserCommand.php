@@ -30,7 +30,7 @@ class CreateAdminUserCommand extends Command
         Db::beginTransaction();
 
         try {
-            $user = User::createStatic(CreateUserDto::fromParams($this->email, $this->password));
+            $user = User::createModel(CreateUserDto::fromParams($this->email, $this->password));
 
             $user = $userRepository->create($user);
 

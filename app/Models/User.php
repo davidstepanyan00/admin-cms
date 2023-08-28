@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Services\Auth\Dtos\ChangeUserPasswordDto;
 use App\Services\Auth\Dtos\CreateUserDto;
 use App\Services\Auth\Dtos\UpdateUserDto;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -71,6 +72,13 @@ class User extends Authenticatable
             'password' => Hash::make($dto->getPassword()),
             'first_name' => $dto->getFirstName(),
             'last_name' => $dto->getLastName(),
+        ];
+    }
+
+    public static function changePasswordModel(ChangeUserPasswordDto $dto): array
+    {
+        return [
+            'password' => Hash::make($dto->getPassword()),
         ];
     }
 }
