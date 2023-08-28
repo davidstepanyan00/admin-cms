@@ -6,10 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4de79af8-0281-4188-a63d-c8e16d7b1523" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/BusinessLogicException.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/BusinessLogicException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Admin/Commands/CreateAdminUserCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Admin/Commands/CreateAdminUserCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/errors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ChangeUserPasswordRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ChangeUserPasswordRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/EditUserLockRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/EditUserLockRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/User/CreateUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/User/CreateUserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/User/GetUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/User/GetUserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/User/IndexUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/User/IndexUserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/User/UpdateUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/User/UpdateUserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Auth/Providers/ServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Auth/Providers/ServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Spatie/Repositories/Interfaces/PermissionRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Spatie/Repositories/Interfaces/PermissionRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Spatie/Repositories/PermissionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Spatie/Repositories/PermissionRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +247,7 @@
       <workItem from="1693055708611" duration="10076000" />
       <workItem from="1693203835673" duration="14000000" />
       <workItem from="1693226679518" duration="19000" />
-      <workItem from="1693237220094" duration="6630000" />
+      <workItem from="1693237220094" duration="8635000" />
     </task>
     <servers />
   </component>

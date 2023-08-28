@@ -35,6 +35,5 @@ class ServiceProvider extends ParentServiceProvider
      */
     public function boot()
     {
-        //
     }
 }

@@ -19,10 +19,12 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'auth'], function () {
 
 Route::group(['prefix' => 'auth'], function () {
     Route::post('/login', [AuthController::class, 'login']);
+    Route::post('/user/info', [UserController::class, 'show']);
 });
 
 Route::group(['middleware' => 'auth', 'prefix' => 'users'], function () {
     Route::post('/', [UserController::class, 'create']);
     Route::put('/', [UserController::class, 'update']);
+    Route::get('/', [UserController::class, 'index']);
     Route::post('/{id}/edit/lock/', [EditUserLockController::class]);
 });

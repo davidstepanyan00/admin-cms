@@ -2,8 +2,8 @@
 
 namespace App\Http\Requests;
 
+use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
 class EditUserLockRequest extends Request
 {
@@ -12,7 +12,7 @@ class EditUserLockRequest extends Request
 
     public function authorize(): bool
     {
-        return Auth::check();
+        return $this->user()->can('lockEdit', [User::class]);
     }
 
     public function rules(): array
